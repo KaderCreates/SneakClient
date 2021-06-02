@@ -65,6 +65,7 @@ const handleSignup = (fname, lname, email, password, propsfn) => {
     method: "POST",
     mode: "cors",
     cache: "no-cache",
+    credentials: "same-origin",
     headers: {
       "Content-Type": "application/json",
     },
